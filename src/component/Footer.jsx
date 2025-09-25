@@ -6,7 +6,7 @@ import Twitter from "../assets/images/TwitterX.svg"
 
 export default function Footer() {
   return (
-    <footer className='bg-main text-white flex flex-col md:flex-row gap-[20px] lg:gap-[0px] justify-between items-center py-[10px] px-[10px]'>
+    <footer className='bg-main text-white flex flex-col md:flex-row  gap-[20px] lg:gap-[0px] justify-between items-center py-[10px]  lg:px-[50px] px-[10px]'>
       <div className='flex items-center gap-[15px]'>
         <img  src={Logo} className='w-[50px]'/>
         <p className='text-[24px]'>خـدمتـك</p>
