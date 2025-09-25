@@ -6,7 +6,7 @@ import Google from "../assets/images/lastGoogle.svg"
 
 export default function Downloads() {
   return (
-          <div className="bg-[#FFB351] relative  rounded-[26px] flex h-[700px] my-[50px] lg:my-[200px] lg:h-[511px] ">
+          <div className="bg-[#FFB351] relative  rounded-[26px] flex h-[700px] my-[50px] lg:mt-[150px] lg:mb-[100px] lg:h-[511px] ">
             <div className="lg:py-[20px] lg:pr-[50px] py-[50px] px-[20px]   flex flex-col lg:justify-center lg:gap-[50px] gap-[20px]  md:mt-[80px] md:px-[40px]">
                 <h1 className="lg:font-[700] lg:text-[64px] text-[30px] font-[400] md:text-[35px] ">قم بتحميل التطبيق</h1>
                 <p className="lg:font-[400] lg:text-[24px] lg:leading-[100%] text-[20px] leading-[30px] ">التطبيق متوفر الآن علي جميع منصات التحميل جوجل بلاي و آب استور !</p>
