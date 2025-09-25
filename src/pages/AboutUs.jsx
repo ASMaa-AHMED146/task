@@ -1,9 +1,7 @@
 import React from 'react'
-
+import LottieHandler from "../component/feedback/LottieHandler"
 export default function AboutUs() {
   return (
-    <div>
-      AboutUs
-    </div>
+    <LottieHandler type={'empty'}/>
   )
 }

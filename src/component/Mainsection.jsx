@@ -9,8 +9,8 @@ export default function Mainsection() {
       <div className='lg:max-w-[60%]  flex flex-col gap-[30px]'>
         <div className='flex flex-col gap-[10px]'>
           <h4 className='text-[#F3BB44] font-[400] text-[24px]'>مرحبا بك في تطبيق</h4>
-          <h1 className='text-main font-[700] text-[40px]'>خـدمتـك</h1>
-          <p className='py-[20px] text-[23px] leading-[37px]'>تطبيق خدمات منزلية متكامل يربطك بأفضل مقدمي الخدمات في منطقتك، سواء كنت تحتاج تنظيف، سباكة، طلاء أو صيانة. احجز بسهولة، وتابع خدمتك خطوة بخطوة. ولو كنت مقدم خدمة، تقدر تنضم وتبدأ تكسب من مهاراتك في أقل من دقيقة.</p>
+          <h1 className='text-main font-[700] text-[48px]'>خـدمتـك</h1>
+          <p className='py-[20px] text-[20px] font-[400] leading-[37px]'>تطبيق خدمات منزلية متكامل يربطك بأفضل مقدمي الخدمات في منطقتك، سواء كنت تحتاج تنظيف، سباكة، طلاء أو صيانة. احجز بسهولة، وتابع خدمتك خطوة بخطوة. ولو كنت مقدم خدمة، تقدر تنضم وتبدأ تكسب من مهاراتك في أقل من دقيقة.</p>
         </div>
         <div className='flex gap-[20px] justify-center '>
           <img className='cursor-pointer w-[150px]' src={Appstore}/>

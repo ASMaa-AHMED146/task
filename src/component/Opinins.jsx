@@ -18,10 +18,10 @@ export default function Opinins() {
   const opinions = [1, 2, 3, 4, 5, 6]; // بيانات افتراضية
 
   return (
-    <div className="relative px-[50px] py-[20px] ">
+    <div className="relative px-[50px] py-[20px] mt-[60px] lg:mt-[100px]  ">
     
       <div className="text-center mb-[70px]">
-        <p className="font-[400] text-[24px] text-[#F3BB44] pb-[20px]">
+        <p className="font-[400] text-[24px] text-[#F3BB44] pb-[20px]  ">
           أراء العملاء
         </p>
         <h1 className="font-[700]  lg:text-[32px] text-main leading-1">
@@ -88,7 +88,7 @@ function Opinion() {
       <div className="flex gap-[10px]">
         <img className="w-[50px] rounded-[10px]" src={img} alt="person photo" />
         <div>
-          <p className="font-[400] text-[16px] text-main ">اسم المستخدم</p>
+          <p className="font-[400] text-[20px] text-main ">اسم المستخدم</p>
           <p className="flex">
             <span>
               <img src={Outlinestar} alt="star" />
@@ -105,7 +105,7 @@ function Opinion() {
           </p>
         </div>
       </div>
-      <div className="text-[#8C8F95] text-[16px] font-[400] leading-[26px]">
+      <div className="text-[#8C8F95] text-[16px] font-[400] ">
         هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحةهذا النص هو مثال لنص
         يمكن أن يستبدل في نفس المساحة هذا النص هو مثال لنص يمكن أن يستبدل في
         نفس المساحةهذا النص هو مثال

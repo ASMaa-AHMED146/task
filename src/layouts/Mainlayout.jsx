@@ -6,10 +6,8 @@ import { Outlet } from 'react-router-dom';
 export default function Mainlayout() {
   return (
     <div>
-      <Header/>
-      <div >
+      <Header/>     
         <Outlet/>
-      </div>
       <Footer/>
     </div>
   )

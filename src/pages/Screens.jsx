@@ -1,9 +1,7 @@
 import React from 'react'
-
+import LottieHandler from "../component/feedback/LottieHandler"
 export default function Screens() {
   return (
-    <div>
-      Screens
-    </div>
+<LottieHandler type={'empty'}/>
   )
 }

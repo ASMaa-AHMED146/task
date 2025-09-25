@@ -4,6 +4,7 @@ import AboutApp from "../component/AboutApp";
 import About from "../component/About";
 import Screens from "../component/Screens"
 import Opinins from "../component/Opinins";
+import Downloads from "../component/Downloads";
 
 export default function Home() {
   
@@ -15,10 +16,7 @@ export default function Home() {
         <About/>
         <Screens/>
         <Opinins/>
-        <div>
-          
-        </div>
-
+        <Downloads/>
       </div>
     </>
   )

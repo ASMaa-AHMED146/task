@@ -1,9 +1,8 @@
 import React from 'react'
+import LottieHandler from "../component/feedback/LottieHandler"
 
 export default function Language() {
   return (
-    <div>
-      
-    </div>
+      <LottieHandler type={'empty'}/>
   )
 }
