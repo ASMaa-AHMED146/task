@@ -19,7 +19,7 @@ const Imagearray = [img1, img2, img3, img4, img5, img1, img2, img3, img4, img5];
 
 export default function Screens() {
   return (
-    <div className='lg:mt-[120px] relative'>
+    <div className='lg:mt-[0px] relative'>
         <h1 className='text-center text-main font-[700] lg:mb-[50px] text-[32px]'>شاشات التطبيق</h1>
         <img className='absolute top-0 left-0 z-0' src={Bottom}/>
         <img className='absolute bottom-0 right-0 ' src={Top}/>
